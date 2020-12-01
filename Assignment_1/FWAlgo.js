@@ -22,7 +22,7 @@ function conversion(){
 	for (var i = 0; i < tempArray.length; i++) {
 		finalArray[i] = tempArray[i].split(',');
 	}
-	console.log(finalArray);
+	
 	return finalArray;
 	
 }
@@ -58,8 +58,9 @@ function runFwAlgo(){
 
 	let txt = FwAlgo();
 	for(i = 0; i < txt.length; i++){
-		
-		divOutput.innerHTML+= "\n[" + txt[1] + "]";
+		// this is edited last
+		a = txt[i];
+		divOutput.innerHTML+= "\n[" + a + "]";
 
 	}
 	
