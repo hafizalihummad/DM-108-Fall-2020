@@ -15,6 +15,9 @@ Warshall's algorithm computes the transitive closure of a relation (Alternativel
 
 It uses properties of the digraph D, in particular, walks of various lengths in D.
 
+## Time Complexity ##
+Time Complexity is O(n^3).
+
 ## Best Used ##
 This Algorithm is best used when we are not directly identified whether it is transitive or not. It is implemented on dense graph. It iterates continuously when new elements will not identified according to the given input.
 
